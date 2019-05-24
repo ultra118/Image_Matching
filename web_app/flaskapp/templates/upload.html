@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+	<a href="/">
+		<h2>
+			Home Page
+		</h2>
+	</a>
+	<form action = "http://localhost:5000/embedding" method = "POST" enctype = "multipart/form-data">
+		<input type = "file" name = "file" />
+ 		<input type = "submit"/>
+	</form>
+      
+
+{% endblock content%}

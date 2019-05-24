@@ -1,0 +1,14 @@
+ extends "layout.html" %}
+{% block content %}
+	<h1>find same face</h1>
+
+	<form action = "http://localhost:5000/find" method = "POST" enctype = "multipart/form-data">
+		<input type = "file" name = "file" />
+ 		<input type = "submit"/>
+	</form>
+	<a href="/">
+		<h2>
+			Home Page
+		</h2>
+	</a>
+{% endblock content%}

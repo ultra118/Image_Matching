@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+	<h1>Home Page</h1>
+	<a href="/upload"> 
+		<h2>
+			image upload(embedding test)		
+		</h2>
+	</a>
+	<a href="/compare"> 
+		<h2>
+			compare 2 images
+		</h2>
+	</a>
+	
+	<a href="/compare_db"> 
+		<h2>
+			저장된 db에서 업로드하는 이미지와 비교 
+		</h2>
+	</a>
+	<a href="/similar_db"> 
+		<h2>
+			저장된 db에서 업로드하느 이미지와 가장 유사한 이미지
+		</h2>
+	</a>
+{% endblock content%}

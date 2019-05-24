@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+	<h1>compare_db</h1>
+
+	<form action = "http://localhost:5000/compare_db" method = "POST" enctype = "multipart/form-data">
+		<input type = "file" name = "file" />
+ 		<input type = "submit"/>
+	</form>
+	<a href="/">
+		<h2>
+			embedding db에 저장된 값과 이미지 비교 
+		</h2>
+	</a>
+{% endblock content%}

@@ -2,6 +2,11 @@
 # Created by https://www.gitignore.io/api/python,windows,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=python,windows,jupyternotebook
 
+### Large File ###
+*.npz
+*.dat
+
+
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
@@ -139,6 +144,7 @@ dmypy.json
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
+
 
 # Dump file
 *.stackdump

@@ -5,7 +5,8 @@
 ### Large File ###
 *.npz
 *.dat
-
+*.h5
+*.whl
 
 ### JupyterNotebook ###
 .ipynb_checkpoints
